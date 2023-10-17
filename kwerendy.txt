@@ -1,0 +1,4 @@
+Kwerenda 1: SELECT id,tytul FROM ogloszenia ORDER by tytul ASC;
+Kwerenda 2: SELECT tytul FROM ogloszenia WHERE kategoria=1 and podkategoria=13;
+Kwerenda 3: UPDATE ogloszenia SET podkategoria=1 WHERE id=5;
+Kwerenda 4: ALTER TABLE ogloszenia DROP COLUMN uzytkownik_id;
